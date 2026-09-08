@@ -81,7 +81,7 @@ Kat Chang 網站是張雁雲營養師的專業展示、課程合作、衛教文�
 - `teach/emotion-cards/`：草木心語情緒觀察卡。
 - `teach/nutrition-battle/`：營養知識互動挑戰。
 - `teach/nutritionranking/`：食品營養排行與查詢工具。
-- `teach/nutritionranking/` 是 NutriRank 唯一正式來源；`D:\@antigravity\nutritionranking` 已退役，不得再作為更新、測試或發布來源。資料更新使用正式資料夾內的 `update-data.ps1` 與 `tools/transform-tfda-data.mjs`，從政府資料開放平臺 Dataset 8543 下載官方 JSON，先驗證筆數、食品 ID、首／中／末項與欄位，再更新 `nutrition_data.js`、頁尾詮釋資料日期及快取版本參數。
+- `teach/nutritionranking/` 是 NutriRank 唯一正式來源；舊的 `D:\@antigravity\nutritionranking` 已刪除。資料更新使用正式資料夾內的 `update-data.ps1` 與 `tools/transform-tfda-data.mjs`，從政府資料開放平臺 Dataset 8543 下載官方 JSON，先驗證筆數、食品 ID、首／中／末項與欄位，再更新 `nutrition_data.js`、頁尾詮釋資料日期及快取版本參數。
 - `https://teaching-3809d.web.app/`：文字雲互動工具，從 `teach/` 入口頁外連。
 - 文字雲是獨立的 Firebase Hosting 工具，必須保留 Firebase 設定注入與 Firestore 即時回饋。維護 GitHub Pages 一般頁面時，不得移除或改寫文字雲專案的 Firebase 設定。
 - `/admin/` 是本專案必須長期保留的 Blog 管理頁。頁面可新增、修改、刪除文章、上傳封面圖、設定首頁精選與預覽，使用者目前對這組功能與頁面表示滿意。除非使用者明確要求修改管理功能，任何網站維護都不得刪除 `admin/`、移除 Blog 的管理入口、改掉現有欄位或破壞既有發布流程。使用者需在當次頁面輸入有 `Contents: Read and write` 權限的 GitHub token。token 只存於瀏覽器記憶體，不寫入網站或 localStorage。

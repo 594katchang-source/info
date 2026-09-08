@@ -1,6 +1,6 @@
 # NutriRank 維護說明
 
-`D:\@Codex\594katchang-source.github.io-main\teach\nutritionranking` 是 NutriRank 的唯一正式來源資料夾。舊的 `D:\@antigravity\nutritionranking` 不再作為更新、測試或發布來源。
+`D:\@Codex\594katchang-source.github.io-main\teach\nutritionranking` 是 NutriRank 的唯一正式來源資料夾。舊的 `D:\@antigravity\nutritionranking` 已刪除。
 
 ## 資料來源
 
