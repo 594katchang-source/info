@@ -1,5 +1,50 @@
 # Kat Chang site 工作日誌
 
+## 2026-09-08｜檢核點 5（Milestone 5）互動教具導流、社群卡片升級與 GSC/GA4 搜尋表現總檢核
+
+### 任務
+
+- 依「4 週 SEO & AI 搜尋攻頂計畫」時程，於第 3 週（09/08）正式啟動「檢核點 5（Milestone 5）：互動教具導流與社群卡片檢查」總體檢。
+- 遵循目錄規範，建立獨立專屬資料夾 `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/`，所有過程腳本置於 `source/`，成品集中於 `output/`。
+- **任務 ①（社群卡片與 Facebook Sharing Debugger 檢核）**：
+  - 使用 Python 腳本實體模擬 Facebook Sharing Debugger（Graph API 爬蟲）與 Twitterbot，全面體檢 NutriRank、Stress Food、草木心語情緒覺察卡（並延伸至營養對戰教室、論文讀書小站與教具總目錄）。
+  - 抓出原始重大盲點：`og:type=software` 觸發無效型態警告；`og:image` 引用 1:1 個人照片導致社群被強制裁切或留白；全系列教具 100% 缺失 Twitter Card 標籤。
+  - 開發 `generate_social_cards.py`，自動生成 6 張符合 1200×630 px (1.91:1) 黃金規格之高解析度社群卡片（儲存於 `assets/og/`）。
+  - 全面升級 6 大教具頁面之 HTML Head 標籤（標準化 `og:type=website`、大圖橫幅、`twitter:card=summary_large_image`），覆驗全數達成 100% PASS 綠燈。
+- **任務 ②（四大主打教具、GA4 停留時長實裝與文章導流斷層徹底解決）**：
+  - 正式將「論文讀書小站公開版」與 NutriRank、Stress Food、草木心語並列為四大主打教具，補齊 5 組核心長尾搜尋詞庫與 E-E-A-T 點擊率優化策略。
+  - 徹底解決 GA4 停留時長問題：建置 `assets/analytics.js`，包含 Google Tag (gtag.js) 標準載入模組，結合 Page Visibility API 精確計算活躍停留時間；並在四大教具中全面實裝自訂互動事件（`tool_nutrirank_search`、`tool_stressfood_complete`、`tool_emotion_card_flip`、`tool_paper_view`）。
+  - 徹底解決站內導流斷層（0 條）：開發 `enrich_tools_crosslinks.py`，於全站 12 篇衛教專文中精準植入 21 處四大主打教具的十字互鏈推薦卡片，使站內導流數躍升為 NutriRank 8 條、Stress Food 5 條、草木心語 4 條、論文讀書小站 8 條。
+- **全站同步與推播**：
+  - 執行 `sync_seo_and_geo.py`，確保 Sitemap、llms、robots.txt 與最新頁面狀態同步。
+  - 將成果推播至 GitHub Pages 遠端倉庫。
+
+### 主要輸出
+
+- `assets/analytics.js`：全站 GA4 載入與活躍停留時間（Page Visibility API）監聽模組，含四大教具專屬事件追蹤 API。
+- `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/source/audit_social_cards.py`：Facebook Sharing Debugger 與 Twitter Card 規範檢核腳本。
+- `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/source/generate_social_cards.py`：1200×630 專屬社群分享卡片生成工具。
+- `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/source/enrich_tools_crosslinks.py`：12 篇專文精準教具十字互鏈注水工具。
+- `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/source/audit_gsc_and_traffic.py`：GSC 搜尋意圖與站內導流拓撲分析腳本。
+- `assets/og/`（及 `output/og_images/`）：6 張 1200×630 高解析度社群分享圖片。
+- `teach/nutritionranking/index.html`、`teach/Stress-Food/index.html`、`teach/emotion-cards/index.html`、`teach/nutrition-battle/index.html`、`teach/paper-radar/index.html`、`teach/index.html`：6 大教具頁面 Head 標籤升級與 GA4 事件掛載。
+- `blog/posts.json`：12 篇專文新增 21 處四大主打教具推薦導流卡片。
+- `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/output/social_cards_audit_result.json`：社群卡片覆驗結果數據（全數 PASS）。
+- `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/output/gsc_and_traffic_analysis.json`：GSC 目標關鍵字與全新導流分析數據檔。
+- `work/2026-09-08-milestone-5-tools-social-cards-and-gsc-audit/output/Milestone_5_Tools_Social_Cards_and_GSC_Audit_Report.md`：檢核點 5 總檢核旗艦報告。
+- `sitemap.xml`、`sitemap.html`、`llms.txt`、`llms-full.txt`、`robots.txt`：全站 SEO & GEO 自動同步更新。
+
+### 驗證
+
+- 三點式一致性抽驗通過：
+  - 首項（NutriRank）：`og:type="website"`，大圖橫幅 `og-nutrirank.png` 規格 1200×630 檔案存在（83.6 KB），`twitter:card` 為 `summary_large_image`，站內專文引用達 8 條。
+  - 中項（Stress Food）：`og:type="website"`，大圖橫幅 `og-stress-food.png` 規格 1200×630 檔案存在（94.0 KB），站內專文引用達 5 條。
+  - 末項（草木心語）：`og:type="website"`，大圖橫幅 `og-emotion-cards.png` 規格 1200×630 檔案存在（84.2 KB），`twitter:card` 為 `summary_large_image`，站內專文引用達 4 條。
+- 社群卡片檢核覆驗：全站 6 大教具 Facebook 檢核 PASS、Twitter 檢核 PASS。
+- GA4 追蹤模組載入與教具事件綁定驗證無誤。
+- 全站 SEO & GEO 同步腳本執行退出碼 0。
+- 全域規範與嚴禁推測原則 100% 遵行。
+
 ## 2026-09-04｜全站網頁與12篇衛教專文深度埋入關鍵字、升級Schema與AI (GEO)收錄結構總檢核
 
 ### 任務

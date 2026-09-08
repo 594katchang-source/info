@@ -491,6 +491,9 @@ function finishGame() {
   );
   els.nextButton.disabled = true;
   els.submitButton.disabled = true;
+  if (window.KatAnalytics) {
+    window.KatAnalytics.trackStressFoodComplete('all_scenarios', state.score);
+  }
 }
 
 function setFeedback(title, text) {

@@ -1,0 +1,190 @@
+{
+  "audit_date": "2026-09-08",
+  "site_domain": "https://594katchang-source.github.io",
+  "gsc_verification_status": "VERIFIED (google077240dc796cc2bf.html detected)",
+  "ga4_tracking_status": "NOT_INSTALLED (gtag.js not found in current codebase)",
+  "tools_analysis": [
+    {
+      "id": "nutrirank",
+      "name": "NutriRank 食品營養排行榜與查詢系統",
+      "canonical_url": "https://594katchang-source.github.io/teach/nutritionranking/",
+      "target_queries": [
+        "食品營養成分查詢",
+        "台灣食品營養資料庫",
+        "營養素排行榜",
+        "高鉀食物排行",
+        "高鈣食物排行",
+        "六大類食物營養比對",
+        "外食營養成分比較"
+      ],
+      "conversion_goal": "引導讀者預約「營養諮詢」、閱讀「DRI 營養標示專文」與「水與礦物質專文」",
+      "inbound_links_from_blog": [
+        {
+          "post_id": "2026-08-25-vitamins-book-notes",
+          "post_title": "維生素怎麼吃？從脂溶性、水溶性到補充品風險"
+        },
+        {
+          "post_id": "2026-08-22-proteins-amino-acids-book-notes",
+          "post_title": "蛋白質與胺基酸 從身體功能、食物品質到植物性飲食"
+        },
+        {
+          "post_id": "2026-08-17-carbohydrates-food-guide",
+          "post_title": "碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖"
+        },
+        {
+          "post_id": "2026-08-16-remarkable-body-nutrition-guide",
+          "post_title": "身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體"
+        },
+        {
+          "post_id": "2026-08-15-nutrition-tools-standards-guidelines",
+          "post_title": "DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思"
+        },
+        {
+          "post_id": "2026-08-14-food-choices-human-health-guide",
+          "post_title": "食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇"
+        },
+        {
+          "post_id": "sample-balanced-breakfast",
+          "post_title": "超商早餐怎麼搭才更穩定？上班族外食抗疲勞飲食精選組合"
+        },
+        {
+          "post_id": "2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health",
+          "post_title": "每天喝多少水才夠？從電解質、鈣鐵到骨質保養"
+        }
+      ],
+      "inbound_count": 8
+    },
+    {
+      "id": "stress-food",
+      "name": "Stress Food 壓力飲食解謎遊戲",
+      "canonical_url": "https://594katchang-source.github.io/teach/Stress-Food/",
+      "target_queries": [
+        "壓力大吃什麼",
+        "壓力飲食解謎",
+        "皮質醇飲食",
+        "抗焦慮食物組合",
+        "職場疲勞飲食",
+        "熬夜加班宵夜推薦",
+        "企業健康講座教材"
+      ],
+      "conversion_goal": "引導企業 HR/職護洽詢「企業 EAP 講座」、引流預約「Zcal 一對一諮詢」",
+      "inbound_links_from_blog": [
+        {
+          "post_id": "2026-08-22-proteins-amino-acids-book-notes",
+          "post_title": "蛋白質與胺基酸 從身體功能、食物品質到植物性飲食"
+        },
+        {
+          "post_id": "2026-08-20-lipids-fatty-acids-guide",
+          "post_title": "脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇"
+        },
+        {
+          "post_id": "2026-08-17-carbohydrates-food-guide",
+          "post_title": "碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖"
+        },
+        {
+          "post_id": "2026-08-16-remarkable-body-nutrition-guide",
+          "post_title": "身體怎麼把食物變成能量？從消化、吸收到營養訊號讀懂人體"
+        },
+        {
+          "post_id": "sample-balanced-breakfast",
+          "post_title": "超商早餐怎麼搭才更穩定？上班族外食抗疲勞飲食精選組合"
+        }
+      ],
+      "inbound_count": 5
+    },
+    {
+      "id": "emotion-cards",
+      "name": "草木心語 情緒覺察卡牌互動版",
+      "canonical_url": "https://594katchang-source.github.io/teach/emotion-cards/",
+      "target_queries": [
+        "情緒覺察卡線上版",
+        "植物卡牌情緒練習",
+        "草木心語",
+        "身心覺察微運動",
+        "高齡心靈陪伴卡牌",
+        "舒壓呼吸練習互動"
+      ],
+      "conversion_goal": "引導學員報名「樂齡身心靈工作坊」、洽詢「長照/社區講座合作」",
+      "inbound_links_from_blog": [
+        {
+          "post_id": "2026-08-25-vitamins-book-notes",
+          "post_title": "維生素怎麼吃？從脂溶性、水溶性到補充品風險"
+        },
+        {
+          "post_id": "2026-08-14-food-choices-human-health-guide",
+          "post_title": "食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇"
+        },
+        {
+          "post_id": "2026-05-19-功能醫學預防阿茲海默症的系統性介入策略",
+          "post_title": "功能醫學預防阿茲海默症的系統性介入策略"
+        },
+        {
+          "post_id": "食物過敏知多少",
+          "post_title": "食物過敏知多少？"
+        }
+      ],
+      "inbound_count": 4
+    },
+    {
+      "id": "nutrition-battle",
+      "name": "營養對戰教室 Nutrition Battle",
+      "canonical_url": "https://594katchang-source.github.io/teach/nutrition-battle/",
+      "target_queries": [
+        "營養教育互動遊戲",
+        "營養搶答遊戲",
+        "課堂投影即時互動",
+        "長者健康破冰教具"
+      ],
+      "conversion_goal": "引導社福團體與學校洽詢「講師授課」",
+      "inbound_links_from_blog": [],
+      "inbound_count": 0
+    },
+    {
+      "id": "paper-radar",
+      "name": "論文讀書小站 公開閱讀版",
+      "canonical_url": "https://594katchang-source.github.io/teach/paper-radar/",
+      "target_queries": [
+        "營養醫學論文導讀",
+        "PubMed 營養學文獻轉譯",
+        "功能醫學實證研究",
+        "阿茲海默症營養文獻"
+      ],
+      "conversion_goal": "展現「專業顧問」學術深度、引導生技醫療機構合作",
+      "inbound_links_from_blog": [
+        {
+          "post_id": "2026-08-20-lipids-fatty-acids-guide",
+          "post_title": "脂質怎麼吃才健康？搞懂飽和脂肪、Omega-3、膽固醇與食用油選擇"
+        },
+        {
+          "post_id": "2026-08-17-carbohydrates-food-guide",
+          "post_title": "碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖"
+        },
+        {
+          "post_id": "2026-08-15-nutrition-tools-standards-guidelines",
+          "post_title": "DRI、營養標示怎麼看？用六大類食物讀懂營養數字與超級食物迷思"
+        },
+        {
+          "post_id": "2026-08-14-food-choices-human-health-guide",
+          "post_title": "食物選擇怎麼影響健康？用適足、均衡、適量、多樣做出每天吃得到的選擇"
+        },
+        {
+          "post_id": "2026-08-13-nutrition-concepts-controversies-17e-guide",
+          "post_title": "影響近半世紀的營養學入門神書《Nutrition: Concepts & Controversies》最新版，營養師導讀健康行為轉向與15個爭議"
+        },
+        {
+          "post_id": "2026-05-19-功能醫學預防阿茲海默症的系統性介入策略",
+          "post_title": "功能醫學預防阿茲海默症的系統性介入策略"
+        },
+        {
+          "post_id": "食物過敏知多少",
+          "post_title": "食物過敏知多少？"
+        },
+        {
+          "post_id": "2026-09-01-how-much-water-electrolytes-calcium-iron-bone-health",
+          "post_title": "每天喝多少水才夠？從電解質、鈣鐵到骨質保養"
+        }
+      ],
+      "inbound_count": 8
+    }
+  ]
+}

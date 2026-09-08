@@ -516,5 +516,13 @@
     });
   });
 
+  elements.list.addEventListener("toggle", (event) => {
+    if (event.target.open && window.KatAnalytics) {
+      const card = event.target.closest(".paper-card");
+      const title = card ? card.querySelector("h3")?.textContent : "";
+      window.KatAnalytics.trackPaperView("paper_section", "", title || "論文筆記");
+    }
+  }, true);
+
   load();
 }());

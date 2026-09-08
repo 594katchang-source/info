@@ -7,13 +7,22 @@
 <meta name="description" content="草木心語情緒覺察卡牌互動版，提供植物卡牌、情緒提問與日常練習。">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://594katchang-source.github.io/teach/emotion-cards/">
-<meta property="og:type" content="software">
-<meta property="og:title" content="草木心語 情緒覺察卡 | Kat Chang">
-<meta property="og:description" content="草木心語情緒覺察卡牌互動版，提供植物卡牌、情緒提問與日常練習。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="草木心語 情緒覺察卡牌互動版 ｜ Kat Chang">
+<meta property="og:description" content="草木心語情緒覺察卡牌互動版，提供 36 種植物卡牌、深度情緒提問與日常覺察練習。">
 <meta property="og:url" content="https://594katchang-source.github.io/teach/emotion-cards/">
-<meta property="og:image" content="https://594katchang-source.github.io/assets/profile/kat-avatar.jpg">
+<meta property="og:image" content="https://594katchang-source.github.io/assets/og/og-emotion-cards.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="草木心語 情緒覺察卡牌互動版社群分享卡片">
 <meta property="og:site_name" content="Kat Chang 凱特營養師">
 <meta property="og:locale" content="zh_TW">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="草木心語 情緒覺察卡牌互動版 ｜ Kat Chang">
+<meta name="twitter:description" content="草木心語情緒覺察卡牌互動版，提供 36 種植物卡牌、深度情緒提問與日常覺察練習。">
+<meta name="twitter:image" content="https://594katchang-source.github.io/assets/og/og-emotion-cards.png">
+<meta name="twitter:image:alt" content="草木心語 情緒覺察卡牌互動版社群分享卡片">
 <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"SoftwareApplication","name":"草木心語 情緒覺察卡","applicationCategory":"EducationalApplication","operatingSystem":"Web","url":"https://594katchang-source.github.io/teach/emotion-cards/","description":"植物卡牌、情緒提問與日常練習互動工具。","author":{"@type":"Person","name":"張雁雲營養師","url":"https://594katchang-source.github.io/about.html"},"offers":{"@type":"Offer","price":"0","priceCurrency":"TWD"}}
 </script>
@@ -35,9 +44,10 @@ const grid=document.getElementById('grid'),q=document.getElementById('q'),count=
 function esc(s){return String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]))}
 function back(c,big=false){return `<div class="card ${big?'big':''}"><img class="cardimg" src="${c.img}" alt="${esc(c.plant)}卡牌圖片"><div class="num">${c.id}</div><div class="name">${esc(c.plant)}</div></div>`}
 function render(list){grid.innerHTML=list.map(c=>`<button class="cardbtn" type="button" data-id="${c.id}" aria-label="${esc(c.plant)}｜${esc(c.theme)}">${back(c)}</button>`).join('');count.textContent=`${list.length} / 36`}
-function openCard(id){const c=cards.find(x=>x.id===id);viewer.innerHTML=`<div class="big">${back(c,true)}</div><section class="panel"><button class="close" aria-label="關閉">×</button><div class="front"><h2 class="title">${esc(c.plant)}｜${esc(c.theme)}</h2><p class="desc">${esc(c.desc)}</p><div class="qa"><div class="box"><h3>問題</h3><p>${esc(c.question)}</p></div><div class="box"><h3>練習</h3><p>${esc(c.practice)}</p></div></div></div></section>`;modal.classList.add('open');document.body.style.overflow='hidden'}
+function openCard(id){const c=cards.find(x=>x.id===id);viewer.innerHTML=`<div class="big">${back(c,true)}</div><section class="panel"><button class="close" aria-label="關閉">×</button><div class="front"><h2 class="title">${esc(c.plant)}｜${esc(c.theme)}</h2><p class="desc">${esc(c.desc)}</p><div class="qa"><div class="box"><h3>問題</h3><p>${esc(c.question)}</p></div><div class="box"><h3>練習</h3><p>${esc(c.practice)}</p></div></div></div></section>`;modal.classList.add('open');document.body.style.overflow='hidden';if(window.KatAnalytics)window.KatAnalytics.trackEmotionCardFlip(c.id,c.plant,c.theme)}
 function closeCard(){modal.classList.remove('open');document.body.style.overflow=''}
 grid.onclick=e=>{const b=e.target.closest('.cardbtn');if(b)openCard(Number(b.dataset.id))};q.oninput=()=>{const s=q.value.trim();render(cards.filter(c=>!s||String(c.id).includes(s)||c.plant.includes(s)||c.theme.includes(s)))};modal.onclick=e=>{if(e.target===modal||e.target.className==='close')closeCard()};document.onkeydown=e=>{if(e.key==='Escape')closeCard()};render(cards);
 </script>
+<script src="../../assets/analytics.js"></script>
 </body>
 </html>

@@ -1,0 +1,409 @@
+[
+  {
+    "tool_info": {
+      "id": "nutrirank",
+      "name": "NutriRank 食品營養成分排行榜與查詢系統",
+      "rel_path": "teach/nutritionranking/index.html",
+      "url": "https://594katchang-source.github.io/teach/nutritionranking/"
+    },
+    "title": "NutriRank - 台灣地區食品營養成分排行榜與查詢系統",
+    "canonical": "https://594katchang-source.github.io/teach/nutritionranking/",
+    "meta_description": "運用台灣食藥署(TFDA)公開資料庫製作的食品營養成分排行榜與查詢系統。提供三大營養素、維生素、礦物質在六大類食物中的排行榜，並提供兩千多種食材的營養標示與對比工具。",
+    "og_data": {
+      "og:type": "website",
+      "og:title": "NutriRank 食品營養排行榜與查詢系統",
+      "og:description": "查詢台灣食品營養成分、營養素排行榜與食品對比工具。運用食藥署 TFDA 資料庫打造。",
+      "og:url": "https://594katchang-source.github.io/teach/nutritionranking/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-nutrirank.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "NutriRank 食品營養排行榜與查詢系統社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter_data": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "NutriRank 食品營養排行榜與查詢系統",
+      "twitter:description": "查詢台灣食品營養成分、營養素排行榜與食品對比工具。運用食藥署 TFDA 資料庫打造。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-nutrirank.png",
+      "twitter:image:alt": "NutriRank 食品營養排行榜與查詢系統社群分享卡片"
+    },
+    "json_ld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "NutriRank 食品營養排行榜與查詢系統",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "url": "https://594katchang-source.github.io/teach/nutritionranking/",
+        "description": "查詢台灣食品營養成分、營養素排行榜與食品對比工具。",
+        "author": {
+          "@type": "Person",
+          "name": "張雁雲營養師",
+          "url": "https://594katchang-source.github.io/about.html"
+        },
+        "isBasedOn": "https://data.gov.tw/dataset/8543",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "TWD"
+        }
+      }
+    ],
+    "fb_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    },
+    "tw_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  },
+  {
+    "tool_info": {
+      "id": "stress-food",
+      "name": "Stress Food 壓力飲食互動解謎遊戲",
+      "rel_path": "teach/Stress-Food/index.html",
+      "url": "https://594katchang-source.github.io/teach/Stress-Food/"
+    },
+    "title": "Stress Food",
+    "canonical": "https://594katchang-source.github.io/teach/Stress-Food/",
+    "meta_description": "Stress Food 壓力飲食互動衛教工具，透過組餐解謎學習壓力情境下的飲食選擇。",
+    "og_data": {
+      "og:type": "website",
+      "og:title": "Stress Food 壓力飲食解謎 ｜ Kat Chang 互動衛教工具",
+      "og:description": "用生活壓力情境練習組合健康紓壓飲食的線上解謎遊戲。掌握皮質醇與血清素營養機轉。",
+      "og:url": "https://594katchang-source.github.io/teach/Stress-Food/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-stress-food.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Stress Food 壓力飲食解謎遊戲社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter_data": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Stress Food 壓力飲食解謎 ｜ Kat Chang 互動衛教工具",
+      "twitter:description": "用生活壓力情境練習組合健康紓壓飲食的線上解謎遊戲。掌握皮質醇與血清素營養機轉。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-stress-food.png",
+      "twitter:image:alt": "Stress Food 壓力飲食解謎遊戲社群分享卡片"
+    },
+    "json_ld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Stress Food 壓力飲食解謎",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "url": "https://594katchang-source.github.io/teach/Stress-Food/",
+        "description": "用生活壓力情境練習組合健康紓壓飲食的線上解謎遊戲。",
+        "author": {
+          "@type": "Person",
+          "name": "張雁雲營養師",
+          "url": "https://594katchang-source.github.io/about.html"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "TWD"
+        }
+      }
+    ],
+    "fb_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    },
+    "tw_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  },
+  {
+    "tool_info": {
+      "id": "emotion-cards",
+      "name": "草木心語 情緒覺察卡牌互動版",
+      "rel_path": "teach/emotion-cards/index.html",
+      "url": "https://594katchang-source.github.io/teach/emotion-cards/"
+    },
+    "title": "草木心語 情緒覺察卡",
+    "canonical": "https://594katchang-source.github.io/teach/emotion-cards/",
+    "meta_description": "草木心語情緒覺察卡牌互動版，提供植物卡牌、情緒提問與日常練習。",
+    "og_data": {
+      "og:type": "website",
+      "og:title": "草木心語 情緒覺察卡牌互動版 ｜ Kat Chang",
+      "og:description": "草木心語情緒覺察卡牌互動版，提供 36 種植物卡牌、深度情緒提問與日常覺察練習。",
+      "og:url": "https://594katchang-source.github.io/teach/emotion-cards/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-emotion-cards.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "草木心語 情緒覺察卡牌互動版社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter_data": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "草木心語 情緒覺察卡牌互動版 ｜ Kat Chang",
+      "twitter:description": "草木心語情緒覺察卡牌互動版，提供 36 種植物卡牌、深度情緒提問與日常覺察練習。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-emotion-cards.png",
+      "twitter:image:alt": "草木心語 情緒覺察卡牌互動版社群分享卡片"
+    },
+    "json_ld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "草木心語 情緒覺察卡",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "url": "https://594katchang-source.github.io/teach/emotion-cards/",
+        "description": "植物卡牌、情緒提問與日常練習互動工具。",
+        "author": {
+          "@type": "Person",
+          "name": "張雁雲營養師",
+          "url": "https://594katchang-source.github.io/about.html"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "TWD"
+        }
+      }
+    ],
+    "fb_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    },
+    "tw_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  },
+  {
+    "tool_info": {
+      "id": "nutrition-battle",
+      "name": "營養對戰教室 (Nutrition Battle)",
+      "rel_path": "teach/nutrition-battle/index.html",
+      "url": "https://594katchang-source.github.io/teach/nutrition-battle/"
+    },
+    "title": "營養對戰教室",
+    "canonical": "https://594katchang-source.github.io/teach/nutrition-battle/",
+    "meta_description": "講師投影、學員手機同步參與的營養教育對戰活動。",
+    "og_data": {
+      "og:type": "website",
+      "og:title": "營養對戰教室 Nutrition Battle ｜ Kat Chang 互動衛教工具",
+      "og:description": "講師投影、學員手機同步參與的營養教育對戰活動。樂齡與職場健康促進破冰利器。",
+      "og:url": "https://594katchang-source.github.io/teach/nutrition-battle/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-nutrition-battle.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "營養對戰教室 Nutrition Battle 社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter_data": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "營養對戰教室 Nutrition Battle ｜ Kat Chang 互動衛教工具",
+      "twitter:description": "講師投影、學員手機同步參與的營養教育對戰活動。樂齡與職場健康促進破冰利器。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-nutrition-battle.png",
+      "twitter:image:alt": "營養對戰教室 Nutrition Battle 社群分享卡片"
+    },
+    "json_ld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "營養對戰教室",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "url": "https://594katchang-source.github.io/teach/nutrition-battle/",
+        "description": "講師投影、學員手機同步參與的營養教育對戰活動。",
+        "author": {
+          "@type": "Person",
+          "name": "張雁雲營養師",
+          "url": "https://594katchang-source.github.io/about.html"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "TWD"
+        }
+      }
+    ],
+    "fb_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    },
+    "tw_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  },
+  {
+    "tool_info": {
+      "id": "paper-radar",
+      "name": "論文讀書小站公開閱讀版",
+      "rel_path": "teach/paper-radar/index.html",
+      "url": "https://594katchang-source.github.io/teach/paper-radar/"
+    },
+    "title": "論文讀書小站｜公開閱讀版 | Kat Chang",
+    "canonical": "https://594katchang-source.github.io/teach/paper-radar/",
+    "meta_description": "Kat Chang 論文讀書小站的公開閱讀版，整理可公開查閱的論文摘要、合法全文連結與中文閱讀成果。",
+    "og_data": {
+      "og:type": "website",
+      "og:title": "論文讀書小站 公開閱讀版 ｜ Kat Chang 凱特營養師",
+      "og:description": "整理可公開查閱的論文摘要、合法全文連結與中文閱讀成果。實證醫學與功能醫學文獻導讀。",
+      "og:url": "https://594katchang-source.github.io/teach/paper-radar/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-paper-radar.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "論文讀書小站公開閱讀版社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter_data": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "論文讀書小站 公開閱讀版 ｜ Kat Chang 凱特營養師",
+      "twitter:description": "整理可公開查閱的論文摘要、合法全文連結與中文閱讀成果。實證醫學與功能醫學文獻導讀。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-paper-radar.png",
+      "twitter:image:alt": "論文讀書小站公開閱讀版社群分享卡片"
+    },
+    "json_ld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "論文讀書小站｜公開閱讀版",
+        "url": "https://594katchang-source.github.io/teach/paper-radar/",
+        "description": "可公開查閱的論文摘要、合法全文連結與中文閱讀成果。",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Kat Chang",
+          "url": "https://594katchang-source.github.io/"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "張雁雲營養師",
+          "url": "https://594katchang-source.github.io/about.html"
+        }
+      }
+    ],
+    "fb_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    },
+    "tw_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  },
+  {
+    "tool_info": {
+      "id": "teach-hub",
+      "name": "互動衛教工具總入口",
+      "rel_path": "teach/index.html",
+      "url": "https://594katchang-source.github.io/teach/"
+    },
+    "title": "互動衛教工具 | Kat Chang",
+    "canonical": "https://594katchang-source.github.io/teach/",
+    "meta_description": "Kat Chang 張雁雲營養師設計的營養與健康促進互動衛教工具，適合課堂、講座與健康活動使用。",
+    "og_data": {
+      "og:type": "website",
+      "og:title": "互動衛教工具總覽 ｜ Kat Chang 凱特營養師",
+      "og:description": "張雁雲營養師設計的營養與健康促進互動衛教工具，包含 NutriRank、Stress Food、情緒覺察卡等，適合課堂、企業講座與樂齡活動使用。",
+      "og:url": "https://594katchang-source.github.io/teach/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-teach-hub.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "互動衛教工具總覽社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter_data": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "互動衛教工具總覽 ｜ Kat Chang 凱特營養師",
+      "twitter:description": "張雁雲營養師設計的營養與健康促進互動衛教工具，包含 NutriRank、Stress Food、情緒覺察卡等，適合課堂、企業講座與樂齡活動使用。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-teach-hub.png",
+      "twitter:image:alt": "互動衛教工具總覽社群分享卡片"
+    },
+    "json_ld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "互動衛教工具｜Kat Chang 凱特營養師",
+        "url": "https://594katchang-source.github.io/teach/",
+        "description": "營養與健康促進互動衛教工具。",
+        "author": {
+          "@type": "Person",
+          "name": "張雁雲營養師",
+          "url": "https://594katchang-source.github.io/about.html"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Kat Chang 互動衛教工具",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Stress Food",
+            "url": "https://594katchang-source.github.io/teach/Stress-Food/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "草木心語 情緒覺察卡",
+            "url": "https://594katchang-source.github.io/teach/emotion-cards/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Nutrition Battle",
+            "url": "https://594katchang-source.github.io/teach/nutrition-battle/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "NutriRank 食品營養排行榜",
+            "url": "https://594katchang-source.github.io/teach/nutritionranking/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "論文讀書小站公開版",
+            "url": "https://594katchang-source.github.io/teach/paper-radar/"
+          }
+        ]
+      }
+    ],
+    "fb_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    },
+    "tw_audit": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "recommendations": []
+    }
+  }
+]
