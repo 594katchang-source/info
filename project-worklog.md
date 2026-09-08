@@ -11,10 +11,11 @@
   - 抓出原始重大短板：首頁與專欄 Title 過短、未融入「中高齡長照營養、企業健康減壓、實證互動教具」三大支柱；多數分頁未宣告 `meta keywords`；`about.html`、`class.html` 缺少 Twitter Card 且仍使用 1:1 個人照；專欄目錄頁缺少專屬社群分享卡片。
 - **任務 ②（全站專屬 1200×630 品牌社群大卡片生成）**：
   - 開發 `generate_site_og_cards.py`，運用 Pillow 自動繪製符合 Facebook / Twitter / LINE / Telegram 官方最佳長寬比（1.91:1）之高解析度品牌分享卡片：
-    - `og-home.png`：官網旗艦首頁分享卡片（實證營養 × 身心減壓 × 樂齡培訓）。
-    - `og-about.png`：個人資歷與核心理念卡片（北醫保健營養、食品營養博士、百場演講）。
-    - `og-class.png`：課程講座與授課經歷卡片（企業內訓、樂齡大學、互動工作坊）。
-    - `og-blog.png`：實證衛教專欄卡片（國際期刊轉譯、肌少症、抗疲勞、皮質醇減壓）。
+    - `og-home.png`：官網旗艦首頁分享卡片（實證營養 × 身心減壓 × 樂齡培訓，作者標籤：Kat Chang 張雁雲）。
+    - `og-about.png`：個人資歷與核心理念卡片（北醫保健營養、食品營養博士、百場演講，作者標籤：Kat Chang 張雁雲）。
+    - `og-class.png`：課程講座與授課經歷卡片（企業內訓、樂齡大學、互動工作坊，作者標籤：Kat Chang 張雁雲）。
+    - `og-blog.png`：實證衛教專欄卡片（國際期刊轉譯、肌少症、抗疲勞、皮質醇減壓，作者標籤：Kat Chang 張雁雲）。
+  - 嚴格校驗卡片作者姓名全數統一為「Kat Chang 張雁雲」，徹底杜絕任何筆誤。
   - 檔案輸出於 `assets/og/` 並備份於 `output/og_images/`。
 - **任務 ③（全站 HTML Head 元數據精準更新實裝）**：
   - 開發 `apply_all_pages_metadata.py`，針對各分頁精確更新：

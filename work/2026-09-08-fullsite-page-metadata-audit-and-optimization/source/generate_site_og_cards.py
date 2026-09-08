@@ -151,7 +151,7 @@ def generate_card(cfg):
         draw.ellipse((avatar_x - 3, avatar_y - 3, avatar_x + 113, avatar_y + 113), outline=cfg['accent_color'], width=3)
 
     font_name = ImageFont.truetype(FONT_BOLD, 24)
-    name_text = "Kat Chang 張家瑋"
+    name_text = "Kat Chang 張雁雲"
     name_w = font_name.getlength(name_text)
     draw.text((author_card_x + (author_card_w - name_w) // 2, card_y + 140), name_text, font=font_name, fill=(255, 255, 255))
 
