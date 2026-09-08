@@ -1,0 +1,401 @@
+[
+  {
+    "id": "home",
+    "path": "index.html",
+    "role": "官網旗艦首頁",
+    "title": "Kat Chang 凱特營養師 ｜ 中高齡與長照營養、企業健康減壓、實證互動教具專家",
+    "title_length": 42,
+    "canonical": "https://594katchang-source.github.io/",
+    "meta_description": "Kat Chang 張雁雲營養師是台灣食品營養博士、美國健康管理MBA碩士。深耕中高齡與長照營養、職場減壓抗疲勞、身心自癒飲食三大支柱。提供企業健康講座、衛教專欄、原創互動教具與一對一營養諮詢。",
+    "desc_length": 97,
+    "meta_keywords": "凱特營養師, Kat營養師, 張雁雲營養師, Kat Chang, 食品營養博士, 保健食品法規顧問, 中高齡營養, 長照營養, 企業健康講座, 員工健康促進, 台北營養師推薦, 桃園營養師推薦, 互動衛教教具, 功能醫學, 減重諮詢, 肌少症飲食, NutriRank, Stress Food, 草木心語",
+    "og": {
+      "og:type": "website",
+      "og:url": "https://594katchang-source.github.io/",
+      "og:title": "Kat Chang 凱特營養師 ｜ 實證營養 × 身心減壓 × 樂齡培訓",
+      "og:description": "食品營養博士、健康管理碩士 MBA。三大支柱：長者營養、職場減壓、身心自癒。全系列原創互動數位教具開放免費體驗！",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-home.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Kat Chang 凱特營養師官方網站社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Kat Chang 凱特營養師 ｜ 實證營養 × 身心減壓 × 樂齡培訓",
+      "twitter:description": "食品營養博士、健康管理碩士 MBA。三大支柱：長者營養、職場減壓、身心自癒。全系列原創互動數位教具開放免費體驗！",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-home.png",
+      "twitter:image:alt": "Kat Chang 凱特營養師官方網站社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "about",
+    "path": "about.html",
+    "role": "個人簡介與專業背景",
+    "title": "關於 Kat Chang 凱特營養師 ｜ 食品營養博士、中高齡長照與企業健康講師",
+    "title_length": 40,
+    "canonical": "https://594katchang-source.github.io/about.html",
+    "meta_description": "認識 Kat Chang 張雁雲營養師（凱特營養師）。台灣高考合格營養師、食品營養博士（高齡健康產業組）、美國健康管理碩士 MBA。專注中高齡長照營養、肌少症照護、職場紓壓抗疲勞、功能醫學與植物芳香輔療。",
+    "desc_length": 102,
+    "meta_keywords": "關於凱特營養師, 張雁雲營養師簡介, 中高齡營養師, 食品營養博士, 企業健康講師, 長照營養師, 樂齡運動指導員, 台北醫學大學, 功能醫學, 芳香輔療, Kat Chang",
+    "og": {
+      "og:type": "profile",
+      "og:title": "關於 Kat Chang 凱特營養師 ｜ 專業資歷與核心理念",
+      "og:description": "台北醫學大學保健營養、食品營養博士與美國健康管理 MBA。百場演講與社區樂齡培訓經驗，以有溫度的科學語言轉譯醫學新知。",
+      "og:url": "https://594katchang-source.github.io/about.html",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-about.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "關於 Kat Chang 凱特營養師專業資歷分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "關於 Kat Chang 凱特營養師 ｜ 專業資歷與核心理念",
+      "twitter:description": "台北醫學大學保健營養、食品營養博士與美國健康管理 MBA。百場演講與社區樂齡培訓經驗，以有溫度的科學語言轉譯醫學新知。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-about.png",
+      "twitter:image:alt": "關於 Kat Chang 凱特營養師專業資歷分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "class",
+    "path": "class.html",
+    "role": "授課模組與企業講座邀約",
+    "title": "課程講座與授課經歷 ｜ Kat Chang 凱特營養師 ｜ 企業內訓、樂齡大學與長照培訓",
+    "title_length": 44,
+    "canonical": "https://594katchang-source.github.io/class.html",
+    "meta_description": "Kat Chang 張雁雲營養師提供多元彈性健康講座與工作坊：EAP 企業職場抗疲勞減壓飲食、社區關懷據點樂齡肌少症預防、長照吞嚥防嗆訓練、100% 零明火料理示範與芳香輔療手作。結合互動教具，全場零冷場！",
+    "desc_length": 103,
+    "meta_keywords": "企業健康講座, EAP職場健康促進, 樂齡大學講師, 長照機構營養培訓, 吞嚥防嗆講座, 零明火料理示範, 芳香手作工作坊, 營養講師邀約, Kat Chang",
+    "og": {
+      "og:type": "website",
+      "og:title": "課程講座與授課經歷 ｜ Kat Chang 凱特營養師 ｜ 邀約合作",
+      "og:description": "樂齡健康促進、企業舒壓防疲勞、IDDSI吞嚥防嗆與零明火料理示範。結合 NutriRank 等原創線上教具沉浸式互動。",
+      "og:url": "https://594katchang-source.github.io/class.html",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-class.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Kat Chang 課程講座與授課經歷社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "課程講座與授課經歷 ｜ Kat Chang 凱特營養師 ｜ 邀約合作",
+      "twitter:description": "樂齡健康促進、企業舒壓防疲勞、IDDSI吞嚥防嗆與零明火料理示範。結合 NutriRank 等原創線上教具沉浸式互動。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-class.png",
+      "twitter:image:alt": "Kat Chang 課程講座與授課經歷社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "blog_index",
+    "path": "blog/index.html",
+    "role": "衛教文章專欄目錄",
+    "title": "實證營養與長者照護衛教專欄 ｜ Kat Chang 凱特營養師",
+    "title_length": 31,
+    "canonical": "https://594katchang-source.github.io/blog/",
+    "meta_description": "Kat Chang 張雁雲營養師的實證衛教專欄，從國際醫學期刊到日常餐桌。深入解析肌少症飲食、地中海飲食、失智預防、職場抗疲勞與皮質醇減壓飲食等深度專題，附帶原創互動教具檢測與實用外食指南。",
+    "desc_length": 95,
+    "meta_keywords": "衛教文章, 營養師專欄, 肌少症飲食, 地中海飲食, 職場減壓飲食, 皮質醇, 抗疲勞食物, 長照營養, 樂齡健康, Kat Chang, 凱特營養師",
+    "og": {
+      "og:type": "website",
+      "og:title": "實證衛教文章專欄 ｜ Kat Chang 凱特營養師",
+      "og:description": "從國際醫學期刊到餐桌日常。收錄肌少症、地中海飲食、職場減壓與皮質醇機轉等深度衛教，嚴謹引用權威文獻。",
+      "og:url": "https://594katchang-source.github.io/blog/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-blog.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Kat Chang 實證衛教專欄社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "實證衛教文章專欄 ｜ Kat Chang 凱特營養師",
+      "twitter:description": "從國際醫學期刊到餐桌日常。收錄肌少症、地中海飲食、職場減壓與皮質醇機轉等深度衛教，嚴謹引用權威文獻。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-blog.png",
+      "twitter:image:alt": "Kat Chang 實證衛教專欄社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "blog_post",
+    "path": "blog/post.html",
+    "role": "衛教文章單篇渲染頁",
+    "title": "實證衛教文章 ｜ Kat Chang 凱特營養師",
+    "title_length": 24,
+    "canonical": "https://594katchang-source.github.io/blog/post.html",
+    "meta_description": "Kat Chang 張雁雲營養師的實證衛教專題文章。結合 PubMed/PMC 國際醫學期刊文獻與台灣在地飲食指南，解析肌少症、抗疲勞與身心自癒。",
+    "desc_length": 73,
+    "meta_keywords": "實證營養, 衛教專欄, 長照營養, 職場抗壓, 肌少症, 地中海飲食, Kat Chang, 凱特營養師",
+    "og": {
+      "og:type": "article",
+      "og:title": "實證衛教文章 ｜ Kat Chang 凱特營養師",
+      "og:description": "Kat Chang 張雁雲營養師的實證衛教專題文章。結合 PubMed/PMC 國際醫學期刊文獻與台灣在地飲食指南。",
+      "og:url": "https://594katchang-source.github.io/blog/post.html",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-blog.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "實證衛教文章 ｜ Kat Chang 凱特營養師",
+      "twitter:description": "Kat Chang 張雁雲營養師的實證衛教專題文章。結合 PubMed/PMC 國際醫學期刊文獻與台灣在地飲食指南。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-blog.png"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "sitemap",
+    "path": "sitemap.html",
+    "role": "網站地圖與架構導覽",
+    "title": "網站地圖 (Sitemap) | Kat Chang 凱特營養師",
+    "title_length": 32,
+    "canonical": "https://594katchang-source.github.io/sitemap.html",
+    "meta_description": "Kat Chang 凱特營養師全站地圖，收錄所有核心頁面、衛教文章、互動教具與課程講座快速導覽。",
+    "desc_length": 48,
+    "meta_keywords": "網站地圖, sitemap, 凱特營養師, Kat Chang, 衛教文章, 互動教具, 企業健康講座, 中高齡營養",
+    "og": {
+      "og:type": "website",
+      "og:title": "網站地圖 (Sitemap) ｜ Kat Chang 凱特營養師",
+      "og:description": "Kat Chang 凱特營養師全站公開頁面、衛教專欄與四大主打互動教具完整目錄。",
+      "og:url": "https://594katchang-source.github.io/sitemap.html",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-home.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "網站地圖 (Sitemap) ｜ Kat Chang 凱特營養師",
+      "twitter:description": "Kat Chang 凱特營養師全站公開頁面、衛教專欄與四大主打互動教具完整目錄。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-home.png"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "info",
+    "path": "info/index.html",
+    "role": "資訊與快速導覽",
+    "title": "頁面跳轉中 ｜ Kat Chang 凱特營養師",
+    "title_length": 23,
+    "canonical": "https://594katchang-source.github.io/",
+    "meta_description": "Kat Chang 凱特營養師官方網站頁面跳轉中。",
+    "desc_length": 25,
+    "meta_keywords": "Kat Chang, 凱特營養師, 頁面跳轉",
+    "og": {},
+    "twitter": {},
+    "issues": [
+      "Meta Description 過短（僅 25 字），未充分利用 80-160 字搜尋摘要黃金空間",
+      "缺少 twitter:card 標籤，在 Twitter/X、LINE、Telegram 傳播無法渲染大卡片",
+      "缺少 og:image 標籤"
+    ],
+    "recommendations": []
+  },
+  {
+    "id": "teach_index",
+    "path": "teach/index.html",
+    "role": "互動衛教教具總目錄",
+    "title": "互動衛教工具總覽｜四大主打教具：NutriRank、Stress Food、情緒卡、論文讀書小站",
+    "title_length": 48,
+    "canonical": "https://594katchang-source.github.io/teach/",
+    "meta_description": "Kat Chang 凱特營養師四大主打數位教具庫：NutriRank 食品營養排行查詢、Stress Food 壓力飲食解謎、草木心語情緒覺察卡、論文讀書小站公開閱讀版，課堂演講與健康促進首選。",
+    "desc_length": 97,
+    "meta_keywords": "互動衛教工具, NutriRank, 食品營養排行榜, Stress Food, 壓力飲食解謎, 草木心語, 情緒覺察卡, 論文讀書小站, 營養對戰教室, 營養教學遊戲, 樂齡教具, Kat Chang",
+    "og": {
+      "og:type": "website",
+      "og:title": "互動衛教工具總覽 ｜ Kat Chang 凱特營養師",
+      "og:description": "張雁雲營養師設計的營養與健康促進互動衛教工具，包含 NutriRank、Stress Food、情緒覺察卡等，適合課堂、企業講座與樂齡活動使用。",
+      "og:url": "https://594katchang-source.github.io/teach/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-teach-hub.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "互動衛教工具總覽社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "互動衛教工具總覽 ｜ Kat Chang 凱特營養師",
+      "twitter:description": "張雁雲營養師設計的營養與健康促進互動衛教工具，包含 NutriRank、Stress Food、情緒覺察卡等，適合課堂、企業講座與樂齡活動使用。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-teach-hub.png",
+      "twitter:image:alt": "互動衛教工具總覽社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "teach_nutrirank",
+    "path": "teach/nutritionranking/index.html",
+    "role": "主打教具：NutriRank 食品營養排行榜",
+    "title": "NutriRank 食品營養排行榜與查詢系統｜台灣 TFDA 兩千種食材免登入即查比對",
+    "title_length": 43,
+    "canonical": "https://594katchang-source.github.io/teach/nutritionranking/",
+    "meta_description": "收錄衛福部食藥署(TFDA)兩千多筆完整食材數據！免登入免費查詢三大營養素、熱量、高鉀食物排行、高鈣食物排行、低卡蛋白質天梯與雙食物成分雷達對比工具。",
+    "desc_length": 75,
+    "meta_keywords": "食品營養成分查詢, 台灣食品營養資料庫, 六大類食物熱量排行, 高鉀食物排行, 高鈣食物排行, 低卡蛋白質排行, 外食營養成分比較, 營養素查詢, 食品對比",
+    "og": {
+      "og:type": "website",
+      "og:title": "NutriRank 食品營養排行榜與查詢系統｜台灣 TFDA 兩千種食材免登入即查比對",
+      "og:description": "收錄衛福部食藥署(TFDA)兩千多筆完整食材數據！免登入免費查詢三大營養素、熱量、高鉀食物排行、高鈣食物排行、低卡蛋白質天梯與雙食物成分雷達對比工具。",
+      "og:url": "https://594katchang-source.github.io/teach/nutritionranking/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-nutrirank.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "NutriRank 食品營養排行榜與查詢系統社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "NutriRank 食品營養排行榜與查詢系統｜台灣 TFDA 兩千種食材免登入即查比對",
+      "twitter:description": "收錄衛福部食藥署(TFDA)兩千多筆完整食材數據！免登入免費查詢三大營養素、熱量、高鉀食物排行、高鈣食物排行、低卡蛋白質天梯與雙食物成分雷達對比工具。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-nutrirank.png",
+      "twitter:image:alt": "NutriRank 食品營養排行榜與查詢系統社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "teach_stressfood",
+    "path": "teach/Stress-Food/index.html",
+    "role": "主打教具：Stress Food 壓力飲食解謎",
+    "title": "Stress Food 壓力飲食解謎遊戲｜壓力大吃什麼？營養師破解加班焦慮與皮質醇組餐",
+    "title_length": 43,
+    "canonical": "https://594katchang-source.github.io/teach/Stress-Food/",
+    "meta_description": "壓力大吃什麼？夜間加班、緊繃焦慮不知道宵夜怎麼搭？張雁雲營養師設計的 Stress Food 線上互動解謎遊戲，破解皮質醇與血清素抗疲勞機轉，外食族也能快速學會健康抗焦慮飲食！",
+    "desc_length": 88,
+    "meta_keywords": "壓力大吃什麼, 壓力飲食解謎, 皮質醇飲食, 抗焦慮食物組合, 職場疲勞飲食, 熬夜加班宵夜推薦, 企業健康講座教具, EAP 職場健康",
+    "og": {
+      "og:type": "website",
+      "og:title": "Stress Food 壓力飲食解謎遊戲｜壓力大吃什麼？營養師破解加班焦慮與皮質醇組餐",
+      "og:description": "壓力大吃什麼？夜間加班、緊繃焦慮不知道宵夜怎麼搭？張雁雲營養師設計的 Stress Food 線上互動解謎遊戲，破解皮質醇與血清素抗疲勞機轉，外食族也能快速學會健康抗焦慮飲食！",
+      "og:url": "https://594katchang-source.github.io/teach/Stress-Food/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-stress-food.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Stress Food 壓力飲食解謎遊戲社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Stress Food 壓力飲食解謎遊戲｜壓力大吃什麼？營養師破解加班焦慮與皮質醇組餐",
+      "twitter:description": "壓力大吃什麼？夜間加班、緊繃焦慮不知道宵夜怎麼搭？張雁雲營養師設計的 Stress Food 線上互動解謎遊戲，破解皮質醇與血清素抗疲勞機轉，外食族也能快速學會健康抗焦慮飲食！",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-stress-food.png",
+      "twitter:image:alt": "Stress Food 壓力飲食解謎遊戲社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "teach_emotioncards",
+    "path": "teach/emotion-cards/index.html",
+    "role": "主打教具：草木心語 情緒覺察卡",
+    "title": "草木心語 情緒覺察卡牌線上版｜36 張植癒牌卡自我對話與 1 分鐘放鬆呼吸微練習",
+    "title_length": 40,
+    "canonical": "https://594katchang-source.github.io/teach/emotion-cards/",
+    "meta_description": "草木心語情緒覺察卡牌線上互動版！精選 36 款植癒手繪植物牌卡，提供直指內心的自我情緒提問與 1 分鐘呼吸練習。適合高壓白領、樂齡長照與身心靈工作坊，找回內在安定力量。",
+    "desc_length": 84,
+    "meta_keywords": "情緒覺察卡線上版, 植物卡牌情緒練習, 草木心語, 身心覺察微運動, 舒壓呼吸練習互動, 高齡心靈陪伴卡牌, 樂齡身心靈教具",
+    "og": {
+      "og:type": "website",
+      "og:title": "草木心語 情緒覺察卡牌線上版｜36 張植癒牌卡自我對話與 1 分鐘放鬆呼吸微練習",
+      "og:description": "草木心語情緒覺察卡牌線上互動版！精選 36 款植癒手繪植物牌卡，提供直指內心的自我情緒提問與 1 分鐘呼吸練習。適合高壓白領、樂齡長照與身心靈工作坊，找回內在安定力量。",
+      "og:url": "https://594katchang-source.github.io/teach/emotion-cards/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-emotion-cards.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "草木心語 情緒覺察卡牌互動版社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "草木心語 情緒覺察卡牌線上版｜36 張植癒牌卡自我對話與 1 分鐘放鬆呼吸微練習",
+      "twitter:description": "草木心語情緒覺察卡牌線上互動版！精選 36 款植癒手繪植物牌卡，提供直指內心的自我情緒提問與 1 分鐘呼吸練習。適合高壓白領、樂齡長照與身心靈工作坊，找回內在安定力量。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-emotion-cards.png",
+      "twitter:image:alt": "草木心語 情緒覺察卡牌互動版社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "teach_paperradar",
+    "path": "teach/paper-radar/index.html",
+    "role": "主打教具：論文讀書小站 公開閱讀版",
+    "title": "論文讀書小站 公開閱讀版｜營養學與功能醫學 PubMed 論文白話導讀與 GRADE 評讀",
+    "title_length": 45,
+    "canonical": "https://594katchang-source.github.io/teach/paper-radar/",
+    "meta_description": "張雁雲營養師（食品營養博士）主持的論文讀書小站公開版！精選 PubMed 與 PMC 國際權威營養醫學期刊文獻，提供 GRADE 研究品質評讀、偏誤風險分析與白話中文導讀，實證轉譯無門檻。",
+    "desc_length": 94,
+    "meta_keywords": "營養學論文導讀, 營養醫學實證研究, PubMed 營養文獻中文解析, PMC 開放全文導讀, 功能醫學實證研究, 阿茲海默症預防營養論文, GRADE 研究品質評讀, RoB 偏誤風險分析",
+    "og": {
+      "og:type": "website",
+      "og:title": "論文讀書小站 公開閱讀版｜營養學與功能醫學 PubMed 論文白話導讀與 GRADE 評讀",
+      "og:description": "張雁雲營養師（食品營養博士）主持的論文讀書小站公開版！精選 PubMed 與 PMC 國際權威營養醫學期刊文獻，提供 GRADE 研究品質評讀、偏誤風險分析與白話中文導讀，實證轉譯無門檻。",
+      "og:url": "https://594katchang-source.github.io/teach/paper-radar/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-paper-radar.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "論文讀書小站公開閱讀版社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "論文讀書小站 公開閱讀版｜營養學與功能醫學 PubMed 論文白話導讀與 GRADE 評讀",
+      "twitter:description": "張雁雲營養師（食品營養博士）主持的論文讀書小站公開版！精選 PubMed 與 PMC 國際權威營養醫學期刊文獻，提供 GRADE 研究品質評讀、偏誤風險分析與白話中文導讀，實證轉譯無門檻。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-paper-radar.png",
+      "twitter:image:alt": "論文讀書小站公開閱讀版社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "teach_nutritionbattle",
+    "path": "teach/nutrition-battle/index.html",
+    "role": "現場教具：營養對戰教室",
+    "title": "營養對戰教室 Nutrition Battle ｜ 講師投影與學員手機即時搶答 ｜ Kat Chang 互動衛教教具",
+    "title_length": 58,
+    "canonical": "https://594katchang-source.github.io/teach/nutrition-battle/",
+    "meta_description": "營養對戰教室 Nutrition Battle 是專為樂齡社區、長青學苑與企業健康講座設計的即時同步競賽教具。講師投影大螢幕顯示 QR Code，學員免安裝手機掃碼即刻組隊搶答，全場破冰零冷場！",
+    "desc_length": 97,
+    "meta_keywords": "營養對戰教室, Nutrition Battle, 營養教學遊戲, 樂齡破冰教具, 健康講座互動工具, 營養即時搶答, 企業健康促進活動, Kat Chang",
+    "og": {
+      "og:type": "website",
+      "og:title": "營養對戰教室 Nutrition Battle ｜ Kat Chang 互動衛教工具",
+      "og:description": "講師投影、學員手機同步參與的營養教育對戰活動。樂齡與職場健康促進破冰利器。",
+      "og:url": "https://594katchang-source.github.io/teach/nutrition-battle/",
+      "og:image": "https://594katchang-source.github.io/assets/og/og-nutrition-battle.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "營養對戰教室 Nutrition Battle 社群分享卡片",
+      "og:site_name": "Kat Chang 凱特營養師",
+      "og:locale": "zh_TW"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "營養對戰教室 Nutrition Battle ｜ Kat Chang 互動衛教工具",
+      "twitter:description": "講師投影、學員手機同步參與的營養教育對戰活動。樂齡與職場健康促進破冰利器。",
+      "twitter:image": "https://594katchang-source.github.io/assets/og/og-nutrition-battle.png",
+      "twitter:image:alt": "營養對戰教室 Nutrition Battle 社群分享卡片"
+    },
+    "issues": [],
+    "recommendations": []
+  }
+]

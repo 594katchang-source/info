@@ -1538,7 +1538,7 @@ button {
   padding: 30px 20px;
   margin-top: 50px;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--text-muted);
 }
 

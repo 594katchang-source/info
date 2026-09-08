@@ -92,6 +92,22 @@ html_content = f"""<!doctype html>
   <meta name="description" content="Kat Chang 凱特營養師全站地圖，收錄所有核心頁面、衛教文章、互動教具與課程講座快速導覽。">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="{BASE_URL}/sitemap.html">
+  <meta name="keywords" content="網站地圖, sitemap, 凱特營養師, Kat Chang, 衛教文章, 互動教具, 企業健康講座, 中高齡營養">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="網站地圖 (Sitemap) ｜ Kat Chang 凱特營養師">
+  <meta property="og:description" content="Kat Chang 凱特營養師全站公開頁面、衛教專欄與四大主打互動教具完整目錄。">
+  <meta property="og:url" content="{BASE_URL}/sitemap.html">
+  <meta property="og:image" content="{BASE_URL}/assets/og/og-home.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Kat Chang 凱特營養師">
+  <meta property="og:locale" content="zh_TW">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="網站地圖 (Sitemap) ｜ Kat Chang 凱特營養師">
+  <meta name="twitter:description" content="Kat Chang 凱特營養師全站公開頁面、衛教專欄與四大主打互動教具完整目錄。">
+  <meta name="twitter:image" content="{BASE_URL}/assets/og/og-home.png">
   <link rel="stylesheet" href="styles.css?v={TODAY}">
   <style>
     .sitemap-container {{ max-width: 920px; margin: 40px auto 80px; padding: 0 20px; }}

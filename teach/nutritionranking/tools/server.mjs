@@ -4,7 +4,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
-const appRoot = path.resolve(scriptDirectory, '..');
+const siteRoot = path.resolve(scriptDirectory, '..', '..', '..');
+const defaultPath = '/teach/nutritionranking/index.html';
 const requestedPort = Number.parseInt(process.env.NUTRIRANK_PORT ?? '8000', 10);
 const port = Number.isInteger(requestedPort) && requestedPort > 0 ? requestedPort : 8000;
 
@@ -22,11 +23,13 @@ const contentTypes = new Map([
 const server = http.createServer((request, response) => {
   try {
     const requestUrl = new URL(request.url ?? '/', `http://${request.headers.host ?? 'localhost'}`);
-    const pathname = decodeURIComponent(requestUrl.pathname === '/' ? '/index.html' : requestUrl.pathname);
-    const filePath = path.resolve(appRoot, `.${pathname}`);
-    const isInsideApp = filePath === appRoot || filePath.startsWith(`${appRoot}${path.sep}`);
+    const pathname = decodeURIComponent(requestUrl.pathname === '/' ? defaultPath : requestUrl.pathname);
+    const requestedPath = pathname.endsWith('/') ? `${pathname}index.html` : pathname;
+    const pathSegments = requestedPath.split('/').filter(Boolean);
+    const filePath = path.resolve(siteRoot, `.${requestedPath}`);
+    const isInsideSite = filePath === siteRoot || filePath.startsWith(`${siteRoot}${path.sep}`);
 
-    if (!isInsideApp) {
+    if (!isInsideSite || pathSegments.some((segment) => segment.startsWith('.'))) {
       response.writeHead(403, { 'Content-Type': 'text/plain; charset=utf-8' });
       response.end('403 - Forbidden');
       return;
@@ -55,6 +58,6 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, '127.0.0.1', () => {
-  console.log(`NutriRank is available at http://127.0.0.1:${port}/`);
+  console.log(`NutriRank is available at http://127.0.0.1:${port}/teach/nutritionranking/`);
   console.log('Press Ctrl+C to stop the server.');
 });
