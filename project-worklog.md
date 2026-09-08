@@ -2393,3 +2393,27 @@
 - GitHub 發布提交：`c38419be6bbcc915f8591a0541d9d324648eaeaf`；`main` 已與 `origin/main` 同步，工作樹乾淨。
 - 公開 `https://594katchang-source.github.io/teach/nutritionranking/` 實測顯示 2,180 種食品、精簡來源句、Dataset 8543 連結、2026-09-08 同步日；`nutrition_data.js?v=20260908-data`、`app.js?v=20260908-data` 與共用分析腳本均成功載入。
 - 公開頁功能與瀏覽器錯誤檢查完成，未發現控制台錯誤或警告；舊 `D:\@antigravity\nutritionranking` 已確認不存在。
+
+## 2026-09-08 收工核對
+
+### 今日完成
+
+- NutriRank 官方資料已更新為 2,180 種食品，頁尾來源句已依使用者要求縮短，並已發布到 GitHub Pages。
+- 舊 `D:\@antigravity\nutritionranking` 已刪除；刪除前盤點 8 個檔案，刪除後確認不存在。
+- GitHub 最新提交為 `d552e7758abca26d769f0760ac133dc5a5a5042c`，本機 `main` 與 `origin/main` 一致，工作樹乾淨。
+
+### 收工驗證
+
+- 官方資料完整比對：226,720 筆來源明細、2,180 個唯一食品 ID、首／中／末項一致、完整紀錄差異 0、鋅欄位映射正常。
+- 公開頁實測：顯示 2,180 種食品、精簡來源句、Dataset 8543 連結、2026-09-08 同步日；資料與程式快取版本均為 `20260908-data`，瀏覽器無錯誤或警告。
+- 本機 `git diff --check`、JavaScript／PowerShell 語法檢查及頁面結構檢查均通過；敏感資訊掃描無命中。
+
+### 未完成與風險
+
+- 本次沒有未完成的 NutriRank 交付項目；Search Console 數據不在本次範圍內，未宣稱有搜尋成效數據。
+- `git ls-remote` 的獨立讀取曾受 Windows Schannel 憑證錯誤阻擋，但 `git push` 已回報成功，且之後以公開頁實測確認內容已上線。
+
+### 規則與偏好
+
+- 本次沒有新增跨專案 skill 規則；專案 `agent.md` 與 NutriRank README 已同步記錄正式來源唯一化及舊資料夾已刪除。
+- 已保留使用者偏好：官方來源優先、頁尾日期精確、舊來源不再並行維護、發布後必須做公開頁實測。
