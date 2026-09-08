@@ -2387,3 +2387,9 @@
 ### 發布狀態
 
 - 依使用者明確要求，將本次 NutriRank 頁尾精簡、舊資料夾刪除、規則同步及工作紀錄更新提交並發布到 GitHub；發布後需再次核對公開頁的 2,180 筆、精簡頁尾與新版資料庫。
+
+### 發布後驗證
+
+- GitHub 發布提交：`c38419be6bbcc915f8591a0541d9d324648eaeaf`；`main` 已與 `origin/main` 同步，工作樹乾淨。
+- 公開 `https://594katchang-source.github.io/teach/nutritionranking/` 實測顯示 2,180 種食品、精簡來源句、Dataset 8543 連結、2026-09-08 同步日；`nutrition_data.js?v=20260908-data`、`app.js?v=20260908-data` 與共用分析腳本均成功載入。
+- 公開頁功能與瀏覽器錯誤檢查完成，未發現控制台錯誤或警告；舊 `D:\@antigravity\nutritionranking` 已確認不存在。
