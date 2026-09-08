@@ -18,7 +18,9 @@ const expectedText = [
   'style.css?v=20260908-data',
   '2026 年 8 月 27 日 14:08',
   '2026 年 9 月 8 日',
+  '2,180 種食品',
   'https://data.gov.tw/dataset/8543',
+  '../../assets/analytics.js',
 ];
 const missingExpectedText = expectedText.filter((text) => !html.includes(text));
 
