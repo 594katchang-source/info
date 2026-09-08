@@ -1,0 +1,38 @@
+[
+  {
+    "rank": 1,
+    "id": "2026-08-22-proteins-amino-acids-book-notes",
+    "title": "蛋白質與胺基酸 從身體功能、食物品質到植物性飲食",
+    "date": "2026-08-22",
+    "image": "images/2026-08-22-proteins-amino-acids-book-notes.jpg",
+    "category": "書籍連載與營養知識",
+    "showOnHome": true
+  },
+  {
+    "rank": 2,
+    "id": "2026-08-17-carbohydrates-food-guide",
+    "title": "碳水化合物怎麼吃才穩？從全穀、膳食纖維到添加糖",
+    "date": "2026-08-17",
+    "image": "images/2026-08-17-carbohydrates-food-guide.png",
+    "category": "書籍連載與營養知識",
+    "showOnHome": true
+  },
+  {
+    "rank": 3,
+    "id": "2026-05-19-功能醫學預防阿茲海默症的系統性介入策略",
+    "title": "功能醫學預防阿茲海默症的系統性介入策略",
+    "date": "2026-05-19",
+    "image": "images/2026-05-19-功能醫學預防阿茲海默症的系統性介入策略.png",
+    "category": "功能醫學與慢病預防",
+    "showOnHome": true
+  },
+  {
+    "rank": 4,
+    "id": "食物過敏知多少",
+    "title": "食物過敏知多少？",
+    "date": "2026-05-17",
+    "image": "images/食物過敏知多少.png",
+    "category": "過敏與免疫衛教",
+    "showOnHome": true
+  }
+]
